@@ -1,5 +1,5 @@
 # Zadanie zaliczeniowe 1: Współbieżna kostka
-# Wprowadzenie
+## Wprowadzenie
 
 Kostka Rubika to sześcian złożony z ruchomych sześciennych bloków.
 
@@ -8,7 +8,7 @@ Kostka Rubika to sześcian złożony z ruchomych sześciennych bloków.
 Blok należy do trzech prostopadłych warstw kostki. Bloki można przemieszczać, obracając warstwy o wielokrotność kąta prostego.
 
 Konstrukcja kostki pozwala na jednoczesne obracanie warstw, które nie mają wspólnych bloków.
-# Polecenie
+## Polecenie
 
 - Zaimplementuj kostkę umożliwiającą współbieżne wykonywanie operacji obrócenia warstwy i pokazania aktualnego stanu kostki (7 pkt).
 
@@ -79,7 +79,7 @@ Bezpośrednio przed zbudowaniem opisu kostki, gdy wątek doczeka się na możliw
 
 Oprócz klasy `Cube`, w rozwiązaniu mogą być inne definicje, zarówno w pakiecie `concurrentcube`, jak i w pakietach pomocniczych.
 
-# Współbieżność implementacji
+## Współbieżność implementacji
 
 Rozwiązanie nie dopuszcza do zagłodzenia wątku.
 
@@ -91,7 +91,7 @@ Wynik metody `show()` jest zgodny ze scenariuszem, w którym obroty są wykonywa
 
 W przypadku przerwania wątku czekającego na wykonanie operacji, metody `rotate(side, layer)` i `show()` zgłaszają wyjątek `InterruptedException`. Po przerwaniu stan kostki pozostaje poprawny. Pozostałe wątki mogą normalnie kontynuować pracę.
 
-# Testy jednostkowe
+## Testy jednostkowe
 
 W pakiecie concurrentcube rozwiązania, oprócz klasy Cube jest też klasa testów jednostkowych `CubeTest`, używająca [JUnit](https://en.wikipedia.org/wiki/JUnit) w wersji 5.
 
@@ -99,7 +99,7 @@ Testy sprawdzają poprawność i współbieżność rozwiązania oraz obsługę 
 
 Komentarze metod testujących wskazują, jakiego aspektu implementacji test dotyczy.
 
-# Wymagania techniczne
+## Wymagania techniczne
 
 Rozwiązanie jest w wersji 11 języka Java. Kompiluje się kompilatorem `javac` i działa poprawnie na komputerze `students`.
 
@@ -109,7 +109,7 @@ Rozwiązanie wysłane na moodla jest w pliku `ab123456.tar.gz`, gdzie `ab123456`
 
 W wysłanym pliku `.tar.gz` są katalogi pakietów z plikami źródłowymi `.java`.
 
-# Walidacja
+## Walidacja
 
 Implementacja kostki podlega walidacji, wstępnie sprawdzającej zgodność ze specyfikacją. Rozwiązanie, które przechodzi pomyślnie walidację, jest dopuszczone do testów poprawności.
 
@@ -121,7 +121,7 @@ Na komputerze `students`, w katalogu walidacji, są:
 
     plik Validate.java .
 
-# Polecenie:
+## Polecenie:
 ```bash
 sh validate.sh ab123456
 ```
