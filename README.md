@@ -16,7 +16,7 @@ Konstrukcja kostki pozwala na jednoczesne obracanie warstw, które nie mają wsp
 
 Rozwiązanie ma być zgodne z poniższą specyfikacją.
 
-# Implementacja kostki
+## Implementacja kostki
 
 W rozwiązaniu zadania jest pakiet concurrentcube z implementacją kostki za pomocą klasy:
 ```java
@@ -79,7 +79,7 @@ Bezpośrednio przed zbudowaniem opisu kostki, gdy wątek doczeka się na możliw
 
 Oprócz klasy `Cube`, w rozwiązaniu mogą być inne definicje, zarówno w pakiecie `concurrentcube`, jak i w pakietach pomocniczych.
 
-## Współbieżność implementacji
+# Współbieżność implementacji
 
 Rozwiązanie nie dopuszcza do zagłodzenia wątku.
 
