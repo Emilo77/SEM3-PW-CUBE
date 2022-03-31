@@ -122,8 +122,8 @@ Na komputerze `students`, w katalogu walidacji, są:
     plik Validate.java .
 
 # Polecenie:
-
+```bash
 sh validate.sh ab123456
-
+```
 waliduje rozwiązanie studenta o identyfikatorze `ab123456`. Komunikat `OK` informuje o sukcesie.
 
