@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://media.giphy.com/media/povenlBAIz14s/giphy.gif" width="400"> 
+</p>
+
 # Zadanie zaliczeniowe 1: Współbieżna kostka
 ## Wprowadzenie
 
