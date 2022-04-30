@@ -1,7 +1,3 @@
-<p align="center">
-    <img src="https://media.giphy.com/media/povenlBAIz14s/giphy.gif" width="50%"> 
-</p>
-
 # Zadanie zaliczeniowe 1: Współbieżna kostka
 ## Wprowadzenie
 
@@ -131,3 +127,6 @@ sh validate.sh ab123456
 ```
 waliduje rozwiązanie studenta o identyfikatorze `ab123456`. Komunikat `OK` informuje o sukcesie.
 
+<p align="center">
+    <img src="https://media.giphy.com/media/povenlBAIz14s/giphy.gif" width="50%"> 
+</p>
